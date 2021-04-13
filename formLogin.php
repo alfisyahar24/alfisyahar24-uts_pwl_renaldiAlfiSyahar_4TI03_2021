@@ -1,4 +1,4 @@
-<h3 style="text-align: center;">Form Pegawai</h3>
+<h3 style="text-align: center;">LOGIN</h3>
 <form method="POST" action="controllers/memberController.php">
     <div class="form-group">
         <label>Username</label>
