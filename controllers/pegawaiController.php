@@ -36,9 +36,9 @@ switch ($tombol) {
         $obj->hapus($id);
         break;
     default: // UNTUK TOMBOL BATAL
-    header('Location:http://localhost:8012/uts/index.php?hal=dataPegawai');
+    header('Location:http://localhost:8012/uts_pwl_renaldiAlfiSyahar_4TI03_2021/index.php?hal=dataPegawai');
         break;
 }
 
 // 4. LANDING PAGE
-header('Location:http://localhost:8012/uts/index.php?hal=dataPegawai');
+header('Location:http://localhost:8012/uts_pwl_renaldiAlfiSyahar_4TI03_2021/index.php?hal=dataPegawai');

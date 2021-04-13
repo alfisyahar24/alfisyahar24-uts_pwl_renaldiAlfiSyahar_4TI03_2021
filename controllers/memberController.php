@@ -21,8 +21,8 @@ if(!empty($rs)) {
     $_SESSION['MEMBER'] = $rs;
 
     // 4. LANDING PAGE
-    header('Location:http://localhost:8012/uts/index.php?hal=dataPegawai');
+    header('Location:http://localhost:8012/uts_pwl_renaldiAlfiSyahar_4TI03_2021/index.php?hal=dataPegawai');
 }
 else {
-    header('Location:http://localhost:8012/uts/index.php?hal=gagalLogin');
+    header('Location:http://localhost:8012/uts_pwl_renaldiAlfiSyahar_4TI03_2021/index.php?hal=gagalLogin');
 }
