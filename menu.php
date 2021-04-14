@@ -22,7 +22,8 @@
                             Data
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="index.php?hal=dataPegawai">Pegawai</a>
+                            <a class="dropdown-item" href="index.php?hal=dataPegawai"><i class="fa fa-user-circle"
+                                    style="width:0.5cm;"></i> Pegawai</a>
                         </div>
                     </li>
                     <form class="form-inline my-2 my-lg-0">
@@ -47,10 +48,13 @@
                             <?= $member['fullname']; ?>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="index.php?hal=dataUser">Users</a>
-                            <a class="dropdown-item" href="#">Profile</a>
+                            <a class="dropdown-item" href="index.php?hal=dataUser"><i class="fa fa-user-o"
+                                    style="width:0.5cm;"></i> Users</a>
+                            <a class="dropdown-item" href="#"><i class="fa fa-user" style="width:0.5cm;"></i>
+                                Profile</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="logout.php">Logout</a>
+                            <a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out"
+                                    style="width:0.5cm;"></i> Logout</a>
                         </div>
                     </li>
                     <?php

@@ -12,7 +12,8 @@ $rs = $obj->dataDivisi();
         <div class="col-8">
             <div class="input-group">
                 <div class="input-group-prepend">
-                    <div class="input-group-text">
+                    <div class="input-group-text"
+                        style="width:1.2cm; display: flex; align-items: center; justify-content:center;">
                         <i class="fa fa-address-card"></i>
                     </div>
                 </div>
@@ -25,14 +26,30 @@ $rs = $obj->dataDivisi();
     <div class="form-group row">
         <label for="nama" class="col-4 col-form-label">Nama</label>
         <div class="col-8">
-            <input id="nama" name="nama" type="text" class="form-control" required="required">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"
+                        style="width:1.2cm; display: flex; align-items: center; justify-content:center;">
+                        <i class="fa fa-address-book"></i>
+                    </div>
+                </div>
+                <input id="nama" name="nama" type="text" class="form-control" required="required">
+            </div>
         </div>
     </div>
     <div class="form-group row">
         <label for="email" class="col-4 col-form-label">Email</label>
         <div class="col-8">
-            <input id="email" name="email" type="text" class="form-control" required="required"
-                aria-describedby="emailHelpBlock">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"
+                        style="width:1.2cm; display: flex; align-items: center; justify-content:center;">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                </div>
+                <input id="email" name="email" type="text" class="form-control" required="required"
+                    aria-describedby="emailHelpBlock">
+            </div>
             <span id="emailHelpBlock" class="form-text text-muted">ex: alfisyahar@dac-solution.com</span>
         </div>
     </div>
@@ -55,7 +72,7 @@ $rs = $obj->dataDivisi();
         <label for="divisi" class="col-4 col-form-label">Divisi</label>
         <div class="col-8">
             <select id="divisi" name="divisi" class="custom-select" required="required">
-                <option value="0">--- Pilih Divisi ---</option>
+                <option value="0">Pilih Divisi</option>
                 <?php
                 foreach($rs as $d) {
                 ?>
@@ -67,7 +84,15 @@ $rs = $obj->dataDivisi();
     <div class="form-group row">
         <label for="foto" class="col-4 col-form-label">Foto</label>
         <div class="col-8">
-            <input id="foto" name="foto" type="text" class="form-control" required="required">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"
+                        style="width:1.2cm; display: flex; align-items: center; justify-content:center;">
+                        <i class="fa fa-picture-o"></i>
+                    </div>
+                </div>
+                <input id="foto" name="foto" type="text" class="form-control" required="required">
+            </div>
         </div>
     </div>
     <div class="form-group row">
